@@ -303,14 +303,14 @@
                                 <rect key="frame" x="32" y="98" width="68" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" image="YES" selected="YES"/>
+                                    <accessibilityTraits key="traits" button="YES" image="YES" selected="YES"/>
                                 </accessibility>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Environment" highlightedImage="Environment" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qU9-s6-HJ4">
                                 <rect key="frame" x="144" y="98" width="85" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" image="YES" selected="YES"/>
+                                    <accessibilityTraits key="traits" button="YES" image="YES" selected="YES"/>
                                 </accessibility>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Health Care" translatesAutoresizingMaskIntoConstraints="NO" id="yvm-nZ-vke">
@@ -328,7 +328,7 @@
                                 <rect key="frame" x="28" y="218" width="77" height="81"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" image="YES" selected="YES"/>
+                                    <accessibilityTraits key="traits" button="YES" image="YES" selected="YES"/>
                                 </accessibility>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="woman" translatesAutoresizingMaskIntoConstraints="NO" id="vgv-jA-VDd">
