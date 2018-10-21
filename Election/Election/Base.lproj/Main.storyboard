@@ -17,20 +17,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cod-oU-a1F">
-                                <rect key="frame" x="239" y="137" width="57" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Register"/>
-                                <connections>
-                                    <segue destination="ftd-xE-kM2" kind="push" id="C90-rZ-tJg"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZxZ-ap-eHe" userLabel="Sign In">
-                                <rect key="frame" x="40" y="97" width="134" height="108"/>
+                                <rect key="frame" x="105" y="380" width="164" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Sign In "/>
                                 <connections>
                                     <segue destination="XbR-mL-eQL" kind="push" id="zOn-Gh-8Ou"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="app logo tranparent" translatesAutoresizingMaskIntoConstraints="NO" id="1h1-Wk-ASh">
+                                <rect key="frame" x="-27" y="44" width="429" height="303"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cod-oU-a1F">
+                                <rect key="frame" x="105" y="444" width="164" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Register"/>
+                                <connections>
+                                    <segue destination="ftd-xE-kM2" kind="push" id="C90-rZ-tJg"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -40,7 +44,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-174" y="27"/>
+            <point key="canvasLocation" x="-175.19999999999999" y="26.53673163418291"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="inJ-FL-C1g">
@@ -349,6 +353,9 @@
             <point key="canvasLocation" x="668" y="-1370.4647676161919"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="app logo tranparent" width="500" height="500"/>
+    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="hoE-aK-Yo3"/>
     </inferredMetricsTieBreakers>
