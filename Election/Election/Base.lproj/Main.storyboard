@@ -265,48 +265,64 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sci-Y2-Tq5">
-                                <rect key="frame" x="16" y="390" width="82" height="88"/>
+                                <rect key="frame" x="16" y="559" width="82" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Skip"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YwY-dV-lPP">
-                                <rect key="frame" x="266" y="419" width="32" height="30"/>
+                                <rect key="frame" x="305" y="588" width="32" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Next"/>
                                 <connections>
                                     <segue destination="xvx-O4-qFl" kind="push" id="vJe-DA-4ha"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iw7-Yf-RxZ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Education" translatesAutoresizingMaskIntoConstraints="NO" id="iw7-Yf-RxZ">
                                 <rect key="frame" x="9" y="128" width="68" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qU9-s6-HJ4">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Environment" translatesAutoresizingMaskIntoConstraints="NO" id="qU9-s6-HJ4">
                                 <rect key="frame" x="90" y="128" width="85" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yvm-nZ-vke">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Health Care" translatesAutoresizingMaskIntoConstraints="NO" id="yvm-nZ-vke">
                                 <rect key="frame" x="188" y="128" width="72" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vc8-Fm-QMB">
-                                <rect key="frame" x="5" y="288" width="77" height="81"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="National Economy" translatesAutoresizingMaskIntoConstraints="NO" id="vc8-Fm-QMB">
+                                <rect key="frame" x="5" y="232" width="77" height="81"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iGD-fI-0fl">
-                                <rect key="frame" x="85" y="288" width="90" height="81"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="woman" translatesAutoresizingMaskIntoConstraints="NO" id="vgv-jA-VDd">
+                                <rect key="frame" x="0.0" y="337" width="82" height="81"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fIp-iX-hpQ">
-                                <rect key="frame" x="183" y="288" width="82" height="81"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="undecided" translatesAutoresizingMaskIntoConstraints="NO" id="FXC-cb-69I">
+                                <rect key="frame" x="87" y="337" width="82" height="81"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ObH-Kj-733">
-                                <rect key="frame" x="277" y="288" width="87" height="74"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="democrat" translatesAutoresizingMaskIntoConstraints="NO" id="tYw-gS-6Nc">
+                                <rect key="frame" x="183" y="337" width="82" height="81"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rcq-5w-ReY">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gun" translatesAutoresizingMaskIntoConstraints="NO" id="iGD-fI-0fl">
+                                <rect key="frame" x="87" y="232" width="90" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Planned Parenthood 1" translatesAutoresizingMaskIntoConstraints="NO" id="fIp-iX-hpQ">
+                                <rect key="frame" x="183" y="232" width="82" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Surveillance" translatesAutoresizingMaskIntoConstraints="NO" id="ObH-Kj-733">
+                                <rect key="frame" x="277" y="232" width="87" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LGBTQ+" translatesAutoresizingMaskIntoConstraints="NO" id="Rcq-5w-ReY">
                                 <rect key="frame" x="277" y="128" width="89" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Republican" translatesAutoresizingMaskIntoConstraints="NO" id="Ux5-4j-rAy">
+                                <rect key="frame" x="273" y="337" width="82" height="81"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -362,9 +378,21 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Education" width="256" height="256"/>
+        <image name="Environment" width="256" height="256"/>
+        <image name="Health Care" width="256" height="256"/>
+        <image name="LGBTQ+" width="256" height="256"/>
+        <image name="National Economy" width="256" height="256"/>
+        <image name="Planned Parenthood 1" width="256" height="256"/>
+        <image name="Republican" width="256" height="256"/>
+        <image name="Surveillance" width="256" height="256"/>
         <image name="app logo tranparent" width="500" height="500"/>
+        <image name="democrat" width="256" height="256"/>
+        <image name="gun" width="256" height="256"/>
+        <image name="undecided" width="256" height="256"/>
+        <image name="woman" width="256" height="256"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="hoE-aK-Yo3"/>
+        <segue reference="5rO-mT-LYA"/>
     </inferredMetricsTieBreakers>
 </document>
