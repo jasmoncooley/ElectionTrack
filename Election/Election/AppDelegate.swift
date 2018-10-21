@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,16 +17,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        //FirebaseApp.configure()
+        FirebaseApp.configure()
         
-        window = UIWindow()
+       /* window = UIWindow()
         window?.makeKeyAndVisible()
         
-        let randomViewController = UIViewController()
+       let randomViewController = UIViewController()
         randomViewController.view.backgroundColor = .purple
         let layout = UICollectionViewLayout()
       //  let swipingController = SwipingController(collectionViewLayout:UICollectionViewLayout)
-        //window?.rootViewCOntroller = randomViewController
+        //window?.rootViewCOntroller = randomViewController*/
         return true
     }
 
