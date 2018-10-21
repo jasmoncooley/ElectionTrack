@@ -22,7 +22,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Sign In "/>
                                 <connections>
-                                    <segue destination="XbR-mL-eQL" kind="push" id="zOn-Gh-8Ou"/>
+                                    <segue destination="ftd-xE-kM2" kind="push" id="lmB-ge-EM8"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="app logo tranparent" translatesAutoresizingMaskIntoConstraints="NO" id="1h1-Wk-ASh">
@@ -34,7 +34,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Register"/>
                                 <connections>
-                                    <segue destination="ftd-xE-kM2" kind="push" id="C90-rZ-tJg"/>
+                                    <segue destination="XbR-mL-eQL" kind="push" id="Zjz-k6-7X1"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -87,9 +87,12 @@
                                 </date>
                             </datePicker>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QeI-tY-ucH">
-                                <rect key="frame" x="157" y="539" width="61" height="32"/>
+                                <rect key="frame" x="157" y="573" width="61" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Get Date"/>
+                                <state key="normal" title="Register"/>
+                                <connections>
+                                    <action selector="Register:" destination="XbR-mL-eQL" eventType="touchUpInside" id="kbG-nN-fOp"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Zip Code:" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Tb-BP-QFJ">
                                 <rect key="frame" x="90" y="318" width="194" height="30"/>
@@ -103,6 +106,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Sign Up"/>
                                 <connections>
+                                    <action selector="Register:" destination="XbR-mL-eQL" eventType="touchUpInside" id="rUH-f6-sCA"/>
                                     <segue destination="AbH-Ox-oCh" kind="push" id="ilE-7B-yLC"/>
                                 </connections>
                             </button>
@@ -110,19 +114,26 @@
                                 <rect key="frame" x="59" y="70" width="256" height="107"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oyt-Yg-QST">
+                                <rect key="frame" x="157" y="533" width="61" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Get Date"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="yD5-TM-wFK"/>
                     </view>
                     <navigationItem key="navigationItem" id="1Os-0j-8g4"/>
                     <connections>
-                        <outlet property="GetDate" destination="QeI-tY-ucH" id="4u6-En-ned"/>
-                        <outlet property="picker" destination="4mg-Ke-sHf" id="Q1o-cq-Tci"/>
+                        <outlet property="EmailField" destination="3IV-5I-8cs" id="S3i-JP-FXb"/>
+                        <outlet property="NameField" destination="rgi-go-2wa" id="pPl-ip-FZ5"/>
+                        <outlet property="PWField" destination="hgS-GM-BMk" id="6Wt-IJ-F1G"/>
+                        <outlet property="ZipCodeField" destination="1Tb-BP-QFJ" id="bz7-1N-yrn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pGF-4g-UV6" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="617" y="-436"/>
+            <point key="canvasLocation" x="616.79999999999995" y="-436.73163418290858"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="MmL-sE-J44">
